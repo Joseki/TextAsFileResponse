@@ -7,6 +7,13 @@
             "email": "miras.paulik@seznam.cz"
         }
     ],
+    "require": {
+        "nette/application": "~2.2"
+    },
+    "require-dev": {
+        "nette/tester": "~1.0",
+        "latte/latte": "~2.2.2"
+    },
     "suggest": {
         "nette/nette": "PHP framework to which this extension belongs to."
     },
