@@ -29,6 +29,12 @@ class TextAsFileResponse extends Object implements IResponse
 
 
 
+    /**
+     * @param ITemplate|string $source
+     * @param string $name name of output file
+     * @param string|null $contentType
+     * @param bool $forceDownload
+     */
     function __construct($source, $name, $contentType = null, $forceDownload = true)
     {
         $this->name = $name;
