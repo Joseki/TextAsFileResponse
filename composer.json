@@ -1,0 +1,17 @@
+{
+    "name": "joseki/text-as-file-response",
+    "description": "Text as file response extension for Nette Framework",
+    "authors": [
+        {
+            "name": "Miroslav Paulík",
+            "email": "miras.paulik@seznam.cz"
+        }
+    ],
+    "suggest": {
+        "nette/nette": "PHP framework to which this extension belongs to."
+    },
+    "license": "LGPL-3.0",
+    "autoload": {
+        "classmap": ["src"]
+    }
+}
