@@ -1,6 +1,8 @@
 TextAsFileResponse
 ==================
 
+[![Build Status](https://travis-ci.org/Joseki/TextAsFileResponse.svg?branch=master)](https://travis-ci.org/Joseki/TextAsFileResponse)
+
 Text as file response for Nette Framework
 
 Install
