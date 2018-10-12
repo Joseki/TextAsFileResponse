@@ -13,8 +13,10 @@ use Nette\Http\IRequest;
 use Nette\Http\IResponse as HttpIResponse;
 use Nette\Object;
 
-class TextAsFileResponse extends Object implements IResponse
+class TextAsFileResponse implements IResponse
 {
+     use \Nette\SmartObject;
+     
     /** @var  string */
     private $name;
 
